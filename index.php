@@ -2,7 +2,7 @@
 <html lang="en-ca">
   <head>
 
-    <!--Metadata-->
+    <!--Meta data-->
     <meta charset="utf-8">
     <meta name="description" content="=Volume of Triangular Pyramid">
     <meta name="keywords" content="immaculata, ics2o">
@@ -12,8 +12,8 @@
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
-    <link rel="manifest" href="./fav_index/site.webmanifest.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favion-16x16.png">
+    <link rel="manifest" href="./fav_index/site.webmanifest">
 
     <!--Stylesheet-->
     <link rel="stylesheet" href="./css/style.css">
@@ -31,18 +31,24 @@
     <div id="div">
       <h3>Insert you input:</h3>
 
+    <!--Image-->
+      <center>
+        <img src="./images/Triangular Pyramid.png">
+      </center>
+
     <!--Form for user input-->
+      <center>
       <form action="./calculations.php" method="post" target="display-result">
-        <label for="pyramid-height">Pyramid Height (cm)</label>
-        <input type="float" name="pyramid-height" placeholder="Pyramid height...">
+        <label for="pyramid-height">Pyramid Height (H)</label>
+        <input type="float" name="pyramid-height" placeholder="Pyramid height (cm)...">
         <br>
         <br>
-        <label for="base-length">Base Length (cm)</label>
-        <input type="float" name="base-length" placeholder="Base lenght...">
+        <label for="base-length">Base Length (A)</label>
+        <input type="float" name="base-length" placeholder="Base lenght (cm)...">
         <br>
         <br>
-        <label for="base-height">Base Height (cm)</label>
-        <input type="float" name="base-height" placeholder="Base height ...">
+        <label for="base-height">Base Height (B)</label>
+        <input type="float" name="base-height" placeholder="Base height (cm)...">
         <br>
         <br>
         <input type="submit" value="Calculate" button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
@@ -51,5 +57,6 @@
 
     <!--Iframe to display results-->
     <iframe id="display-result" name="display-result"></iframe>
+      </center>
   </body>
 </html>
