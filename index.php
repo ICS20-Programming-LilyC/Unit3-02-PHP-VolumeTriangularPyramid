@@ -10,9 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index1/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index1/apple-touch-ion.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./fav_index1/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index1/favion-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index1/favicon-16x16.png">
     <link rel="manifest" href="./fav_index1/site.webmanifest">
 
     <!--Stylesheet-->
@@ -29,7 +29,7 @@
     
     <!--Div-->
     <div id="div">
-      <h3>Insert you input:</h3>
+      <h3>Insert your input:</h3>
 
     <!--Image-->
       <center>
@@ -44,7 +44,7 @@
         <br>
         <br>
         <label for="base-length">Base Length (A)</label>
-        <input type="float" name="base-length" placeholder="Base lenght (cm)...">
+        <input type="float" name="base-length" placeholder="Base length (cm)...">
         <br>
         <br>
         <label for="base-height">Base Height (B)</label>

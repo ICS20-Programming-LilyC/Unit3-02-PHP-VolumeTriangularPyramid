@@ -5,9 +5,9 @@
   $sideBOfTriangularPyramid = floatval($_POST["base-height"]);
 
   //Calculate the volume
-  $volume = $sideAOfTriangularPyramid * $sideBOfTriangularPyramid * $heightOfTriangularPyramid / 6;
+  $volume = $sideAOfTriangularPyramid * $sideBOfTriangularPyramid * $heightOfTriangularPyramid * 1/6;
   $volumeRounded = round($volume, 2);
 ?>
 
 <h3>Results:</h3>
-The volume of the Triangular Pyramid is <?php echo "$volumeRounded" ?> cm<sup>2</sup>.<br>
+The volume of the triangular pyramid is <?php echo "$volumeRounded" ?> cm<sup>2</sup>.<br>
